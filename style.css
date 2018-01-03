@@ -1,0 +1,78 @@
+	* { 
+		padding:0;
+		margin: 0;
+	}
+
+	body { 
+		padding-top: 70px;
+		background-color: #f7efe7;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	section {
+		color: #0c2a76;
+		text-align: center;
+		letter-spacing: .05em;
+		font-size: 1.5em;
+	}
+
+	.surprise {
+		background: #F2F2F2;
+		height: 53px;
+		z-index: 10px;
+	}
+
+	.drop-list {
+		position: relative;
+		/*width: 220px;*/
+		padding: 5px;
+		margin: 0 auto;
+
+		background: #f7efe7;
+		cursor: pointer;
+	}
+
+	.nav-alt {
+    background-color: transparent;
+    border-color: transparent;
+	}
+
+	a.navbar-brand.nav-color {
+		color: #0c2a76;
+		font-size: 1.75em;
+	}
+
+	.navbar-default .navbar-toggle {
+    border-color: transparent;
+	}
+
+	.navbar-default .navbar-toggle:focus,
+	.navbar-default .navbar-toggle:hover {
+		border-color: transparent;
+		background-color: transparent;
+	}
+
+	.navbar-default .navbar-toggle .icon-bar {
+    background-color: #f66;
+    width: 20px;
+    height: 3px;
+	}
+
+	.icon-question {
+		margin: 0 auto;
+		width: 50px;
+		height: 50px;
+		border: 3px solid #f66;
+		border-radius: 50%;
+	}
+
+	select {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   background-color: #f7efe7;
+   color: #f66;
+   border-radius: 0;
+   border: transparent; 
+   border-bottom: 1px dotted #f66;
+	}
